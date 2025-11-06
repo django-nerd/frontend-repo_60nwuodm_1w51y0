@@ -1,4 +1,4 @@
-import { Workflow, Trigger, BarChart3, ShieldCheck } from 'lucide-react'
+import { GitBranch, Bolt, BarChart3, ShieldCheck } from 'lucide-react'
 
 function Feature({ icon: Icon, title, desc }) {
   return (
@@ -20,8 +20,8 @@ function Features() {
         <p className="text-gray-600 mt-2">Build workflows, trigger messages, and track results – no code required.</p>
       </div>
       <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <Feature icon={Workflow} title="Visual workflows" desc="Design journeys with delays, branches, and fallbacks." />
-        <Feature icon={Trigger} title="Smart triggers" desc="Send based on signups, purchases, or custom events." />
+        <Feature icon={GitBranch} title="Visual workflows" desc="Design journeys with delays, branches, and fallbacks." />
+        <Feature icon={Bolt} title="Smart triggers" desc="Send based on signups, purchases, or custom events." />
         <Feature icon={BarChart3} title="Deep analytics" desc="Monitor opens, clicks, bounces, and ROI in real time." />
         <Feature icon={ShieldCheck} title="Secure & compliant" desc="DKIM, SPF, and GDPR-ready infrastructure." />
       </div>

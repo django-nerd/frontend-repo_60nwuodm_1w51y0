@@ -13,7 +13,7 @@ function Navbar() {
         <nav className="hidden md:flex items-center gap-6 text-sm text-gray-600">
           <a href="#features" className="hover:text-gray-900 transition-colors">Features</a>
           <a href="#workflow" className="hover:text-gray-900 transition-colors">Workflow</a>
-          <a href="#pricing" className="hover:text-gray-900 transition-colors">Pricing</a>
+          <a href="#sandbox" className="hover:text-gray-900 transition-colors">Sandbox</a>
         </nav>
         <div className="flex items-center gap-3">
           <button className="hidden md:inline-flex items-center gap-2 text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md">
